@@ -21,6 +21,7 @@ Feature: Manager & Matrix
         Then Then the matrix should saved  
 
     Scenario: Update Test Cases
+        Given The manager is on the matrix homepage
         Given The manager has selected the matrix
         When The manager adds a Test Cases
         When The manager confirms their changes 

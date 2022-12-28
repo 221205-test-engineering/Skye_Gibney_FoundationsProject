@@ -9,7 +9,7 @@ Feature: Defect Reporting
             Users are able to create multiple accounts using the same username but
             with a different password.
             """
-        When The employee types in Steps with 
+        When The employee types in Steps with
             """
             meh
             """
@@ -25,7 +25,7 @@ Feature: Defect Reporting
             """
             meh
             """
-        When The employee types in steps with 
+        When The employee types in Steps with
             """
             1. User creates a new account
             2. User reloads the new user page
@@ -43,7 +43,7 @@ Feature: Defect Reporting
             Users are able to create multiple accounts using the same username but
             with a different password.
             """
-        When The employee types in steps with 
+        When The employee types in Steps with
             """
             1. User creates a new account
             2. User reloads the new user page

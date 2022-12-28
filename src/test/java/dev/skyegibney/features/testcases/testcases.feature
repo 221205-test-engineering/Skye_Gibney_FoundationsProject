@@ -5,16 +5,16 @@ Feature: Test Cases
 
     Scenario: Add A Test Case
         When The tester types Description into input with 
-        """
-        Verify that usernames cannot have illegal characters
-        """
+            """
+            Verify that usernames cannot have illegal characters
+            """
         When The tester types Steps into input with  
-        """
-        1. Go to create a new account page 
-        2. create several users with each username having 1 illegal character
-        3. Make sure none of them are successful
-        illegal characters: $, #, /, <, >, (, ), ^
-        """
+            """
+            1. Go to create a new account page
+            2. create several users with each username having 1 illegal character
+            3. Make sure none of them are successful
+            illegal characters: $, #, /, <, >, (, ), ^
+            """
         When The tester presses the submit button 
         Then The test case should appear at the bottom of the table
         Then The test case result should say UNEXECUTED

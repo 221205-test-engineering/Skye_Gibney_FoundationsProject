@@ -3,7 +3,7 @@ Feature: Defect Reporting
     Scenario Outline: Report New Defect
         Given The employee is on the Defect Reporter Page 
         When The employee selects todays date 
-        When The employee types in Description with
+        When The employee types in description with
             """
             Users are able to create multiple accounts using the same username but
             with a different password.

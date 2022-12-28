@@ -25,8 +25,8 @@ Feature: Navigation
     
     Examples:
         | link           | title               | 
-        | Matrices       |      |
-        | Test Cases     | Test Case Overivew  | 
+        | Matrices       | Matrix Dashboard     |
+        | Test Cases     | Test Cases  |
         | Report a Defect| Defect Reporter     |
         | Defect Overview| Defect Overview     |
 

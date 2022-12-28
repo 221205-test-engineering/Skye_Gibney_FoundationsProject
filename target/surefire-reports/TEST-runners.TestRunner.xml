@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="24" failures="1" name="runners.TestRunner" time="9.458" errors="13" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\astra\dev\revature\FoundationsProject"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\astra\dev\revature\FoundationsProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\astra\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\astra\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\astra\AppData\Local\Microsoft\WindowsApps;C:\ghcup\bin;C:\Users\astra\AppData\Local\JetBrains\Toolbox\scripts;C:\Maven\apache-maven-3.8.6\bin;C:\Users\astra\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\astra\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\PostgreSQL\15\bin;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\astra"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="astra"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3 test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Assign Defect" name="Assign Defect" time="1.529">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35a773eaf4854f8d1b8e2bd28f89740e, findElement {using=xpath, value=//table}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\astra\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61204/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 35a773eaf4854f8d1b8e2bd28f89740e" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35a773eaf4854f8d1b8e2bd28f89740e, findElement {using=xpath, value=//table}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\astra\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61204/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 35a773eaf4854f8d1b8e2bd28f89740e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at stepdefinitions.AssignDefectTest.theManagerShouldSeePendingDefects(AssignDefectTest.java:34)
+	at ✽.The manager should see pending defects(file:///C:/Users/astra/dev/revature/FoundationsProject/src/test/java/features/defect/assign-defect.feature:6)
+</error>
+    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\astra\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 4771
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\astra\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+</system-err>
+  </testcase>
+  <testcase classname="Defect Status" name="Change Status" time="0.058">
+    <error message="The step &apos;The tester is on the Home Page&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The tester is on the Home Page&quot;)
+public void the_tester_is_on_the_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The tester can can see only defects assigned to them&quot;)
+public void the_tester_can_can_see_only_defects_assigned_to_them() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester changes to defect to any status&quot;)
+public void the_tester_changes_to_defect_to_any_status() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The tester should see the defect has a different status&quot;)
+public void the_tester_should_see_the_defect_has_a_different_status() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The tester is on the Home Page&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The tester is on the Home Page&quot;)
+public void the_tester_is_on_the_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The tester can can see only defects assigned to them&quot;)
+public void the_tester_can_can_see_only_defects_assigned_to_them() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester changes to defect to any status&quot;)
+public void the_tester_changes_to_defect_to_any_status() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The tester should see the defect has a different status&quot;)
+public void the_tester_should_see_the_defect_has_a_different_status() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+  <testcase classname="Defect Reporting #1" name="Steps too short" time="0.032">
+    <error message="The step &apos;The employee is on the Defect Reporter Page&apos; and 7 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The employee is on the Defect Reporter Page&quot;)
+public void the_employee_is_on_the_defect_reporter_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects todays date&quot;)
+public void the_employee_selects_todays_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in description with&quot;)
+public void the_employee_types_in_description_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in Steps with&quot;)
+public void the_employee_types_in_steps_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects high priority&quot;)
+public void the_employee_selects_high_priority() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects low severity&quot;)
+public void the_employee_selects_low_severity() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks the report button&quot;)
+public void the_employee_clicks_the_report_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;No confirmation dialog appears&quot;)
+public void no_confirmation_dialog_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The employee is on the Defect Reporter Page&apos; and 7 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The employee is on the Defect Reporter Page&quot;)
+public void the_employee_is_on_the_defect_reporter_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects todays date&quot;)
+public void the_employee_selects_todays_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in description with&quot;)
+public void the_employee_types_in_description_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in Steps with&quot;)
+public void the_employee_types_in_steps_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects high priority&quot;)
+public void the_employee_selects_high_priority() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects low severity&quot;)
+public void the_employee_selects_low_severity() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks the report button&quot;)
+public void the_employee_clicks_the_report_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;No confirmation dialog appears&quot;)
+public void no_confirmation_dialog_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+  <testcase classname="Defect Reporting #1" name="Description too short" time="0.027">
+    <error message="The step &apos;The employee is on the Defect Reporter Page&apos; and 7 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The employee is on the Defect Reporter Page&quot;)
+public void the_employee_is_on_the_defect_reporter_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects todays date&quot;)
+public void the_employee_selects_todays_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in description with&quot;)
+public void the_employee_types_in_description_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in steps with&quot;)
+public void the_employee_types_in_steps_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects high priority&quot;)
+public void the_employee_selects_high_priority() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects low severity&quot;)
+public void the_employee_selects_low_severity() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks the report button&quot;)
+public void the_employee_clicks_the_report_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;No confirmation dialog appears&quot;)
+public void no_confirmation_dialog_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The employee is on the Defect Reporter Page&apos; and 7 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The employee is on the Defect Reporter Page&quot;)
+public void the_employee_is_on_the_defect_reporter_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects todays date&quot;)
+public void the_employee_selects_todays_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in description with&quot;)
+public void the_employee_types_in_description_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in steps with&quot;)
+public void the_employee_types_in_steps_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects high priority&quot;)
+public void the_employee_selects_high_priority() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects low severity&quot;)
+public void the_employee_selects_low_severity() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks the report button&quot;)
+public void the_employee_clicks_the_report_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;No confirmation dialog appears&quot;)
+public void no_confirmation_dialog_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+  <testcase classname="Defect Reporting #1" name="No Date Selected" time="0.025">
+    <error message="The step &apos;The employee is on the Defect Reporter Page&apos; and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The employee is on the Defect Reporter Page&quot;)
+public void the_employee_is_on_the_defect_reporter_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in description with&quot;)
+public void the_employee_types_in_description_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in steps with&quot;)
+public void the_employee_types_in_steps_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects high priority&quot;)
+public void the_employee_selects_high_priority() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects low severity&quot;)
+public void the_employee_selects_low_severity() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks the report button&quot;)
+public void the_employee_clicks_the_report_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;No confirmation dialog appears&quot;)
+public void no_confirmation_dialog_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The employee is on the Defect Reporter Page&apos; and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The employee is on the Defect Reporter Page&quot;)
+public void the_employee_is_on_the_defect_reporter_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in description with&quot;)
+public void the_employee_types_in_description_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in steps with&quot;)
+public void the_employee_types_in_steps_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects high priority&quot;)
+public void the_employee_selects_high_priority() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects low severity&quot;)
+public void the_employee_selects_low_severity() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks the report button&quot;)
+public void the_employee_clicks_the_report_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;No confirmation dialog appears&quot;)
+public void no_confirmation_dialog_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+  <testcase classname="Defect Reporting #2" name="Report New Defect" time="0.026">
+    <error message="The step &apos;The employee is on the Defect Reporter Page&apos; and 11 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The employee is on the Defect Reporter Page&quot;)
+public void the_employee_is_on_the_defect_reporter_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects todays date&quot;)
+public void the_employee_selects_todays_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in Description with&quot;)
+public void the_employee_types_in_description_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in Steps with&quot;)
+public void the_employee_types_in_steps_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects {string} priority&quot;)
+public void the_employee_selects_priority(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects {string} severity&quot;)
+public void the_employee_selects_severity(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks the report button&quot;)
+public void the_employee_clicks_the_report_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;There should be a confirmation box&quot;)
+public void there_should_be_a_confirmation_box() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks Ok&quot;)
+public void the_employee_clicks_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;A modal should appear with a Defect ID&quot;)
+public void a_modal_should_appear_with_a_defect_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks close&quot;)
+public void the_employee_clicks_close() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The modal should disappear&quot;)
+public void the_modal_should_disappear() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The employee is on the Defect Reporter Page&apos; and 11 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The employee is on the Defect Reporter Page&quot;)
+public void the_employee_is_on_the_defect_reporter_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects todays date&quot;)
+public void the_employee_selects_todays_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in Description with&quot;)
+public void the_employee_types_in_description_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee types in Steps with&quot;)
+public void the_employee_types_in_steps_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects {string} priority&quot;)
+public void the_employee_selects_priority(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee selects {string} severity&quot;)
+public void the_employee_selects_severity(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks the report button&quot;)
+public void the_employee_clicks_the_report_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;There should be a confirmation box&quot;)
+public void there_should_be_a_confirmation_box() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks Ok&quot;)
+public void the_employee_clicks_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;A modal should appear with a Defect ID&quot;)
+public void a_modal_should_appear_with_a_defect_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The employee clicks close&quot;)
+public void the_employee_clicks_close() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The modal should disappear&quot;)
+public void the_modal_should_disappear() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+  <testcase classname="Login #1" name="Login Correct Username Wrong Password" time="0.81"/>
+  <testcase classname="Login #1" name="Login Wrong Username Correct Password" time="0.852"/>
+  <testcase classname="Login #2" name="Login with correct credentials #1" time="0.906"/>
+  <testcase classname="Login #2" name="Login with correct credentials #2" time="0.817"/>
+  <testcase classname="Login #2" name="Login with correct credentials #3" time="0.836"/>
+  <testcase classname="Manager &amp; Matrix" name="Create a New Matrix" time="0.264">
+    <error message="The step &apos;The manager chooses to create a new matrix&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;The manager chooses to create a new matrix&quot;)
+public void the_manager_chooses_to_create_a_new_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager creates a title for the matrix&quot;)
+public void the_manager_creates_a_title_for_the_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager adds requirements to the matrix&quot;)
+public void the_manager_adds_requirements_to_the_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager saves the matrix&quot;)
+public void the_manager_saves_the_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;An alert with a success message should appear&quot;)
+public void an_alert_with_a_success_message_should_appear() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The manager chooses to create a new matrix&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;The manager chooses to create a new matrix&quot;)
+public void the_manager_chooses_to_create_a_new_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager creates a title for the matrix&quot;)
+public void the_manager_creates_a_title_for_the_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager adds requirements to the matrix&quot;)
+public void the_manager_adds_requirements_to_the_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager saves the matrix&quot;)
+public void the_manager_saves_the_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;An alert with a success message should appear&quot;)
+public void an_alert_with_a_success_message_should_appear() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\astra\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+</system-err>
+  </testcase>
+  <testcase classname="Manager &amp; Matrix" name="Update Defects" time="0.375">
+    <error message="The step &apos;The manager is on the matrix homepage&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The manager is on the matrix homepage&quot;)
+public void the_manager_is_on_the_matrix_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;The manager has selected the matrix&quot;)
+public void the_manager_has_selected_the_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager adds a defect&quot;)
+public void the_manager_adds_a_defect() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager confirms their changes&quot;)
+public void the_manager_confirms_their_changes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Then the matrix should saved&quot;)
+public void then_the_matrix_should_saved() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The manager is on the matrix homepage&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The manager is on the matrix homepage&quot;)
+public void the_manager_is_on_the_matrix_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given(&quot;The manager has selected the matrix&quot;)
+public void the_manager_has_selected_the_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager adds a defect&quot;)
+public void the_manager_adds_a_defect() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager confirms their changes&quot;)
+public void the_manager_confirms_their_changes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Then the matrix should saved&quot;)
+public void then_the_matrix_should_saved() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\astra\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+</system-err>
+  </testcase>
+  <testcase classname="Manager &amp; Matrix" name="Update Test Cases" time="0.469">
+    <error message="The step &apos;The manager has selected the matrix&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The manager has selected the matrix&quot;)
+public void the_manager_has_selected_the_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager adds a Test Cases&quot;)
+public void the_manager_adds_a_test_cases() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager confirms their changes&quot;)
+public void the_manager_confirms_their_changes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Then the matrix should saved&quot;)
+public void then_the_matrix_should_saved() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The manager has selected the matrix&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The manager has selected the matrix&quot;)
+public void the_manager_has_selected_the_matrix() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager adds a Test Cases&quot;)
+public void the_manager_adds_a_test_cases() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The manager confirms their changes&quot;)
+public void the_manager_confirms_their_changes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Then the matrix should saved&quot;)
+public void then_the_matrix_should_saved() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\astra\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+</system-err>
+  </testcase>
+  <testcase classname="Navigation" name="Home Page Links Visible" time="0.331"/>
+  <testcase classname="Navigation" name="Back Navigation" time="0.448">
+    <failure message="expected:&lt;[Login]&gt; but was:&lt;[Matrix Page]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Login]&gt; but was:&lt;[Matrix Page]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepdefinitions.Navigation.theTitleOfThePageShouldBeMatrixPage(Navigation.java:25)
+	at ✽.The title of the page should be Matrix Page(file:///C:/Users/astra/dev/revature/FoundationsProject/src/test/java/features/navigation/navigation.feature:15)
+</failure>
+    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\astra\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+</system-err>
+  </testcase>
+  <testcase classname="Navigation" name="All Links Viable #1" time="0.36"/>
+  <testcase classname="Navigation" name="All Links Viable #2" time="0.423"/>
+  <testcase classname="Navigation" name="All Links Viable #3" time="0.374"/>
+  <testcase classname="Navigation" name="All Links Viable #4" time="0.429"/>
+  <testcase classname="Test Cases" name="Add A Test Case" time="0.005">
+    <error message="The step &apos;The tester is on the test case dashboard&apos; and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The tester is on the test case dashboard&quot;)
+public void the_tester_is_on_the_test_case_dashboard() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types Description into input with&quot;)
+public void the_tester_types_description_into_input_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types Steps into input with&quot;)
+public void the_tester_types_steps_into_input_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester presses the submit button&quot;)
+public void the_tester_presses_the_submit_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The test case should appear at the bottom of the table&quot;)
+public void the_test_case_should_appear_at_the_bottom_of_the_table() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The test case result should say UNEXECUTED&quot;)
+public void the_test_case_result_should_say_unexecuted() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The tester is on the test case dashboard&apos; and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The tester is on the test case dashboard&quot;)
+public void the_tester_is_on_the_test_case_dashboard() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types Description into input with&quot;)
+public void the_tester_types_description_into_input_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types Steps into input with&quot;)
+public void the_tester_types_steps_into_input_with(String docString) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester presses the submit button&quot;)
+public void the_tester_presses_the_submit_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The test case should appear at the bottom of the table&quot;)
+public void the_test_case_should_appear_at_the_bottom_of_the_table() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The test case result should say UNEXECUTED&quot;)
+public void the_test_case_result_should_say_unexecuted() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+  <testcase classname="Test Cases" name="Update a Test Case" time="0.013">
+    <error message="The step &apos;The tester is on the test case dashboard&apos; and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The tester is on the test case dashboard&quot;)
+public void the_tester_is_on_the_test_case_dashboard() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester presses on details&quot;)
+public void the_tester_presses_on_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;A test case modal should appear showing the case ID&quot;)
+public void a_test_case_modal_should_appear_showing_the_case_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The performed by field should say No One&quot;)
+public void the_performed_by_field_should_say_no_one() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester presses the close buttton&quot;)
+public void the_tester_presses_the_close_buttton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The Modal Should be closed&quot;)
+public void the_modal_should_be_closed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The tester is on the test case dashboard&apos; and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The tester is on the test case dashboard&quot;)
+public void the_tester_is_on_the_test_case_dashboard() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester presses on details&quot;)
+public void the_tester_presses_on_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;A test case modal should appear showing the case ID&quot;)
+public void a_test_case_modal_should_appear_showing_the_case_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The performed by field should say No One&quot;)
+public void the_performed_by_field_should_say_no_one() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester presses the close buttton&quot;)
+public void the_tester_presses_the_close_buttton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The Modal Should be closed&quot;)
+public void the_modal_should_be_closed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+  <testcase classname="Test Cases" name="Edit Existing Case" time="0.024">
+    <error message="The step &apos;The tester is on the test case dashboard&apos; and 15 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The tester is on the test case dashboard&quot;)
+public void the_tester_is_on_the_test_case_dashboard() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester presses on details&quot;)
+public void the_tester_presses_on_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;A test case modal should appear showing the case ID&quot;)
+public void a_test_case_modal_should_appear_showing_the_case_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The Tester clicks on edit within the modal&quot;)
+public void the_tester_clicks_on_edit_within_the_modal() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The Tester should be on the case editor for that case&quot;)
+public void the_tester_should_be_on_the_case_editor_for_that_case() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks on the edit button&quot;)
+public void the_tester_clicks_on_the_edit_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the description text area&quot;)
+public void the_tester_types_in_into_the_description_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the steps text area&quot;)
+public void the_tester_types_in_into_the_steps_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks on the automated check mark&quot;)
+public void the_tester_clicks_on_the_automated_check_mark() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester selects {string} for performed from drop down&quot;)
+public void the_tester_selects_for_performed_from_drop_down(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester selects {string} for test result from drop down&quot;)
+public void the_tester_selects_for_test_result_from_drop_down(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the summary text area&quot;)
+public void the_tester_types_in_into_the_summary_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks save on test case page&quot;)
+public void the_tester_clicks_save_on_test_case_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;A confirmation prompt should appear&quot;)
+public void a_confirmation_prompt_should_appear() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks on Ok&quot;)
+public void the_tester_clicks_on_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;An alert says the test case has been saved&quot;)
+public void an_alert_says_the_test_case_has_been_saved() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The tester is on the test case dashboard&apos; and 15 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The tester is on the test case dashboard&quot;)
+public void the_tester_is_on_the_test_case_dashboard() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester presses on details&quot;)
+public void the_tester_presses_on_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;A test case modal should appear showing the case ID&quot;)
+public void a_test_case_modal_should_appear_showing_the_case_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The Tester clicks on edit within the modal&quot;)
+public void the_tester_clicks_on_edit_within_the_modal() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The Tester should be on the case editor for that case&quot;)
+public void the_tester_should_be_on_the_case_editor_for_that_case() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks on the edit button&quot;)
+public void the_tester_clicks_on_the_edit_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the description text area&quot;)
+public void the_tester_types_in_into_the_description_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the steps text area&quot;)
+public void the_tester_types_in_into_the_steps_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks on the automated check mark&quot;)
+public void the_tester_clicks_on_the_automated_check_mark() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester selects {string} for performed from drop down&quot;)
+public void the_tester_selects_for_performed_from_drop_down(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester selects {string} for test result from drop down&quot;)
+public void the_tester_selects_for_test_result_from_drop_down(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the summary text area&quot;)
+public void the_tester_types_in_into_the_summary_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks save on test case page&quot;)
+public void the_tester_clicks_save_on_test_case_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;A confirmation prompt should appear&quot;)
+public void a_confirmation_prompt_should_appear() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks on Ok&quot;)
+public void the_tester_clicks_on_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;An alert says the test case has been saved&quot;)
+public void an_alert_says_the_test_case_has_been_saved() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+  <testcase classname="Test Cases" name="Reset Test Case" time="0.025">
+    <error message="The step &apos;The tester is on the test case dashboard&apos; and 12 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The tester is on the test case dashboard&quot;)
+public void the_tester_is_on_the_test_case_dashboard() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester presses on details&quot;)
+public void the_tester_presses_on_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;A test case modal should appear showing the case ID&quot;)
+public void a_test_case_modal_should_appear_showing_the_case_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The Tester clicks on edit within the modal&quot;)
+public void the_tester_clicks_on_edit_within_the_modal() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The Tester should be on the case editor for that case&quot;)
+public void the_tester_should_be_on_the_case_editor_for_that_case() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks on the edit button&quot;)
+public void the_tester_clicks_on_the_edit_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the description text area&quot;)
+public void the_tester_types_in_into_the_description_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the steps text area&quot;)
+public void the_tester_types_in_into_the_steps_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester selects {string} for performed from drop down&quot;)
+public void the_tester_selects_for_performed_from_drop_down(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester selects {string} for test result from drop down&quot;)
+public void the_tester_selects_for_test_result_from_drop_down(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the summary text area&quot;)
+public void the_tester_types_in_into_the_summary_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks on the reset button&quot;)
+public void the_tester_clicks_on_the_reset_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The fields should be populated to their old values&quot;)
+public void the_fields_should_be_populated_to_their_old_values() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;The tester is on the test case dashboard&apos; and 12 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The tester is on the test case dashboard&quot;)
+public void the_tester_is_on_the_test_case_dashboard() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester presses on details&quot;)
+public void the_tester_presses_on_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;A test case modal should appear showing the case ID&quot;)
+public void a_test_case_modal_should_appear_showing_the_case_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The Tester clicks on edit within the modal&quot;)
+public void the_tester_clicks_on_edit_within_the_modal() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The Tester should be on the case editor for that case&quot;)
+public void the_tester_should_be_on_the_case_editor_for_that_case() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks on the edit button&quot;)
+public void the_tester_clicks_on_the_edit_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the description text area&quot;)
+public void the_tester_types_in_into_the_description_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the steps text area&quot;)
+public void the_tester_types_in_into_the_steps_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester selects {string} for performed from drop down&quot;)
+public void the_tester_selects_for_performed_from_drop_down(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester selects {string} for test result from drop down&quot;)
+public void the_tester_selects_for_test_result_from_drop_down(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester types in {string} into the summary text area&quot;)
+public void the_tester_types_in_into_the_summary_text_area(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The tester clicks on the reset button&quot;)
+public void the_tester_clicks_on_the_reset_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The fields should be populated to their old values&quot;)
+public void the_fields_should_be_populated_to_their_old_values() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+</testsuite>
